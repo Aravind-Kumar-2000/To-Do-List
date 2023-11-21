@@ -1,0 +1,99 @@
+.footer{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(245, 206, 80);
+    position: relative;
+}
+
+.copyRightLogo{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    font-weight: 600;
+    font-size: 16.5px;
+}
+
+.terms{
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    font-weight: 600;
+    font-size: 16.5px;
+}
+
+.twitterLogo{
+    position: absolute;
+    top: 25px;
+    left: 600px;
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    padding: 2px;
+}
+
+.linkedinLogo{
+    position: absolute;
+    top: 25px;
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    padding: 2px;
+    left: 640px;
+}
+
+.instagramLogo{
+    position: absolute;
+    top: 25px;
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    padding: 2px;
+    left: 680px;
+}
+
+.facebookLogo{
+    position: absolute;
+    top: 25px;
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    padding: 2px;
+    left: 720px;
+}
+
+.youtubeLogo{
+    position: absolute;
+    top: 25px;
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    padding: 2px;
+    left: 760px;
+}
+
+.contact{
+    position: absolute;
+    top: 30px;
+    font-weight: 600;
+    font-size: 16.5px;
+    left: 1130px;
+}
+
+.cellLogo{
+    position: absolute;
+    top: 32px;
+    left: 1230px;
+    border-right: 3px solid black;
+    padding-right: 10px;
+}
+
+.mailLogo{
+    position: absolute;
+    top: 32px;
+    left: 1269px;
+}

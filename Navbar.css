@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+body{
+    background-color:rgb(250, 217, 111) ;
+}
+.navbar{
+    border: none;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(245, 206, 80);
+    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    /* border-bottom: 1px solid black; */
+}
+
+.logo{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.siteName{
+    position: absolute;
+    top: 18px;
+    left: 45px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.headContent{
+    position: absolute;
+    font-size: 30px;
+    top: 13px;
+    font-weight: 600;
+    left:540px ;
+}
+
+.signinButton{
+    font-size:15px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 6px;
+    background-color: rgb(250, 217, 111);
+    position: absolute;
+    top: 13px;
+    left: 1130px;
+}
+
+.loginButton{
+    font-size:15px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 6px;
+    background-color:rgb(250, 217, 111);
+    position: absolute;
+    top: 13px;
+    left: 1240;
+}
+

@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color:rgb(250, 217, 111) ;
+}
+
+.signInFormContainer{
+    position: relative;
+}
+
+.logo01{
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.siteName01{
+    position: absolute;
+    top: 28px;
+    left: 85px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.formTitle{
+    position: absolute;
+    font-weight: 900;    
+    left: 420px;
+    top: 80px;
+    font-size: 30px;
+}
+
+.signInForm{
+    background-color: rgb(245, 206, 80);
+    border: 2.5px solid black;
+    box-shadow: 15px 15px 5px rgb(245, 206, 80) ;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 375px;
+    position: absolute;
+    left: 510px;
+    top: 140px;
+}
+
+.formHeading{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.emailID{
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    border: none;
+}
+
+
+.phoneNumber{
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    border: none;
+}
+
+.userName{
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    border: none;
+}
+
+.password{
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    border: none;
+}
+
+.confirmPassword{
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    border: none;
+}
+
+.buttons{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.submitButton{
+    width: 150px;
+    border: none;
+    height: 25px;
+}
+
+.resetButton{
+    width: 150px;
+    border: none;
+    height: 25px;
+}
+
